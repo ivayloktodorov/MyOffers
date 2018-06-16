@@ -11,5 +11,14 @@
 @interface ViewController : UIViewController
 
 
+@property (nonatomic, strong) NSUserDefaults* defaults;
+
+@property (nonatomic, strong) NSString* defaultsUser;
+@property (nonatomic, strong) NSString* defaultsFirst;
+@property (nonatomic, strong) NSString* defaultsLast;
+@property (nonatomic, strong) NSString* defaultsEmail;
+@property (nonatomic, strong) NSString* defaultsPicture;
+@property (weak, nonatomic) IBOutlet UIButton *logInButton;
+
 @end
 

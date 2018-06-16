@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		257FFF83B1409B6F5989F9FC /* libPods-MyOffersUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5652326C593A9E906AA487 /* libPods-MyOffersUITests.a */; };
 		333EDB1320CE9E2C004EC587 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EDB1220CE9E2C004EC587 /* AppDelegate.m */; };
 		333EDB1620CE9E2C004EC587 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EDB1520CE9E2C004EC587 /* ViewController.m */; };
 		333EDB1920CE9E2C004EC587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333EDB1720CE9E2C004EC587 /* Main.storyboard */; };
@@ -15,6 +16,16 @@
 		333EDB2120CE9E2F004EC587 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EDB2020CE9E2F004EC587 /* main.m */; };
 		333EDB2B20CE9E2F004EC587 /* MyOffersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EDB2A20CE9E2F004EC587 /* MyOffersTests.m */; };
 		333EDB3620CE9E2F004EC587 /* MyOffersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EDB3520CE9E2F004EC587 /* MyOffersUITests.m */; };
+		333EDB4820CFB25C004EC587 /* OffersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EDB4720CFB25C004EC587 /* OffersViewController.m */; };
+		333EDB4B20CFB500004EC587 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EDB4A20CFB500004EC587 /* AlertView.m */; };
+		333EDB4E20CFC046004EC587 /* NewOfferVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EDB4D20CFC046004EC587 /* NewOfferVC.m */; };
+		333EDB5120CFC0BF004EC587 /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EDB5020CFC0BF004EC587 /* ProfileVC.m */; };
+		333EDB5420CFEAAE004EC587 /* DetailOfferVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EDB5320CFEAAE004EC587 /* DetailOfferVC.m */; };
+		333EDB5A20D1AA50004EC587 /* Festive-offers.png in Resources */ = {isa = PBXBuildFile; fileRef = 333EDB5920D1AA4D004EC587 /* Festive-offers.png */; };
+		333EDB5C20D1AA62004EC587 /* oL5c2.png in Resources */ = {isa = PBXBuildFile; fileRef = 333EDB5B20D1AA62004EC587 /* oL5c2.png */; };
+		333EDB5E20D1AAD3004EC587 /* offers_3433.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 333EDB5D20D1AAD3004EC587 /* offers_3433.jpg */; };
+		382602C8C887DFEF2B39F354 /* libPods-MyOffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7F231815A273D68421C988 /* libPods-MyOffers.a */; };
+		57FA685287FADA7699044F06 /* libPods-MyOffersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32668BCEB8FBCC39D047AD79 /* libPods-MyOffersTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28B9800A25781BC5154F1E54 /* Pods-MyOffersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOffersUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyOffersUITests/Pods-MyOffersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		32668BCEB8FBCC39D047AD79 /* libPods-MyOffersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyOffersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		333EDB0E20CE9E2C004EC587 /* MyOffers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOffers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		333EDB1120CE9E2C004EC587 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		333EDB1220CE9E2C004EC587 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +64,26 @@
 		333EDB3120CE9E2F004EC587 /* MyOffersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyOffersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		333EDB3520CE9E2F004EC587 /* MyOffersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOffersUITests.m; sourceTree = "<group>"; };
 		333EDB3720CE9E2F004EC587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333EDB4620CFB25C004EC587 /* OffersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OffersViewController.h; sourceTree = "<group>"; };
+		333EDB4720CFB25C004EC587 /* OffersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OffersViewController.m; sourceTree = "<group>"; };
+		333EDB4920CFB500004EC587 /* AlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		333EDB4A20CFB500004EC587 /* AlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		333EDB4C20CFC046004EC587 /* NewOfferVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewOfferVC.h; sourceTree = "<group>"; };
+		333EDB4D20CFC046004EC587 /* NewOfferVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewOfferVC.m; sourceTree = "<group>"; };
+		333EDB4F20CFC0BF004EC587 /* ProfileVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileVC.h; sourceTree = "<group>"; };
+		333EDB5020CFC0BF004EC587 /* ProfileVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileVC.m; sourceTree = "<group>"; };
+		333EDB5220CFEAAE004EC587 /* DetailOfferVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailOfferVC.h; sourceTree = "<group>"; };
+		333EDB5320CFEAAE004EC587 /* DetailOfferVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailOfferVC.m; sourceTree = "<group>"; };
+		333EDB5920D1AA4D004EC587 /* Festive-offers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Festive-offers.png"; sourceTree = "<group>"; };
+		333EDB5B20D1AA62004EC587 /* oL5c2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oL5c2.png; sourceTree = "<group>"; };
+		333EDB5D20D1AAD3004EC587 /* offers_3433.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = offers_3433.jpg; sourceTree = "<group>"; };
+		3D5652326C593A9E906AA487 /* libPods-MyOffersUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyOffersUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BD2DFA6995EB78B3FFFE182 /* Pods-MyOffers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOffers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyOffers/Pods-MyOffers.debug.xcconfig"; sourceTree = "<group>"; };
+		67EACB60C8448113AB16722F /* Pods-MyOffersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOffersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyOffersTests/Pods-MyOffersTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F89A86AB379B3173B8DE82D /* Pods-MyOffers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOffers.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyOffers/Pods-MyOffers.release.xcconfig"; sourceTree = "<group>"; };
+		DE7F231815A273D68421C988 /* libPods-MyOffers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyOffers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06193F0BB9FF2F2AD3AA380 /* Pods-MyOffersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOffersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyOffersTests/Pods-MyOffersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2D97E86043A303C9156FF0A /* Pods-MyOffersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOffersUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyOffersUITests/Pods-MyOffersUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				382602C8C887DFEF2B39F354 /* libPods-MyOffers.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57FA685287FADA7699044F06 /* libPods-MyOffersTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				257FFF83B1409B6F5989F9FC /* libPods-MyOffersUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +121,8 @@
 				333EDB2920CE9E2F004EC587 /* MyOffersTests */,
 				333EDB3420CE9E2F004EC587 /* MyOffersUITests */,
 				333EDB0F20CE9E2C004EC587 /* Products */,
+				A92F9AC53F892EB4572E6BE4 /* Pods */,
+				EDC9779B24DF55BF7291C491 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +139,14 @@
 		333EDB1020CE9E2C004EC587 /* MyOffers */ = {
 			isa = PBXGroup;
 			children = (
-				333EDB1120CE9E2C004EC587 /* AppDelegate.h */,
-				333EDB1220CE9E2C004EC587 /* AppDelegate.m */,
+				336C59C320D57F3700529CEB /* Recources */,
+				333EDB5720CFED8E004EC587 /* AppDelegate */,
 				333EDB1420CE9E2C004EC587 /* ViewController.h */,
 				333EDB1520CE9E2C004EC587 /* ViewController.m */,
-				333EDB1720CE9E2C004EC587 /* Main.storyboard */,
+				333EDB5820CFED9E004EC587 /* UsersVC */,
+				336C59C420D57F4700529CEB /* Storyboard */,
+				333EDB5620CFED6C004EC587 /* OffersVC */,
+				333EDB5520CFED4B004EC587 /* Other */,
 				333EDB1A20CE9E2F004EC587 /* Assets.xcassets */,
 				333EDB1C20CE9E2F004EC587 /* LaunchScreen.storyboard */,
 				333EDB1F20CE9E2F004EC587 /* Info.plist */,
@@ -132,6 +173,87 @@
 			path = MyOffersUITests;
 			sourceTree = "<group>";
 		};
+		333EDB5520CFED4B004EC587 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				333EDB4920CFB500004EC587 /* AlertView.h */,
+				333EDB4A20CFB500004EC587 /* AlertView.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		333EDB5620CFED6C004EC587 /* OffersVC */ = {
+			isa = PBXGroup;
+			children = (
+				333EDB5220CFEAAE004EC587 /* DetailOfferVC.h */,
+				333EDB5320CFEAAE004EC587 /* DetailOfferVC.m */,
+				333EDB4620CFB25C004EC587 /* OffersViewController.h */,
+				333EDB4720CFB25C004EC587 /* OffersViewController.m */,
+				333EDB4C20CFC046004EC587 /* NewOfferVC.h */,
+				333EDB4D20CFC046004EC587 /* NewOfferVC.m */,
+			);
+			path = OffersVC;
+			sourceTree = "<group>";
+		};
+		333EDB5720CFED8E004EC587 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				333EDB1120CE9E2C004EC587 /* AppDelegate.h */,
+				333EDB1220CE9E2C004EC587 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		333EDB5820CFED9E004EC587 /* UsersVC */ = {
+			isa = PBXGroup;
+			children = (
+				333EDB4F20CFC0BF004EC587 /* ProfileVC.h */,
+				333EDB5020CFC0BF004EC587 /* ProfileVC.m */,
+			);
+			path = UsersVC;
+			sourceTree = "<group>";
+		};
+		336C59C320D57F3700529CEB /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				333EDB5D20D1AAD3004EC587 /* offers_3433.jpg */,
+				333EDB5B20D1AA62004EC587 /* oL5c2.png */,
+				333EDB5920D1AA4D004EC587 /* Festive-offers.png */,
+			);
+			path = Recources;
+			sourceTree = "<group>";
+		};
+		336C59C420D57F4700529CEB /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				333EDB1720CE9E2C004EC587 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A92F9AC53F892EB4572E6BE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BD2DFA6995EB78B3FFFE182 /* Pods-MyOffers.debug.xcconfig */,
+				9F89A86AB379B3173B8DE82D /* Pods-MyOffers.release.xcconfig */,
+				F06193F0BB9FF2F2AD3AA380 /* Pods-MyOffersTests.debug.xcconfig */,
+				67EACB60C8448113AB16722F /* Pods-MyOffersTests.release.xcconfig */,
+				28B9800A25781BC5154F1E54 /* Pods-MyOffersUITests.debug.xcconfig */,
+				F2D97E86043A303C9156FF0A /* Pods-MyOffersUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDC9779B24DF55BF7291C491 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE7F231815A273D68421C988 /* libPods-MyOffers.a */,
+				32668BCEB8FBCC39D047AD79 /* libPods-MyOffersTests.a */,
+				3D5652326C593A9E906AA487 /* libPods-MyOffersUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +261,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 333EDB3A20CE9E2F004EC587 /* Build configuration list for PBXNativeTarget "MyOffers" */;
 			buildPhases = (
+				AA5588D3E2B229986165C1CF /* [CP] Check Pods Manifest.lock */,
 				333EDB0A20CE9E2C004EC587 /* Sources */,
 				333EDB0B20CE9E2C004EC587 /* Frameworks */,
 				333EDB0C20CE9E2C004EC587 /* Resources */,
+				2AEE23A2A72A4F4758C5BEB7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +280,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 333EDB3D20CE9E2F004EC587 /* Build configuration list for PBXNativeTarget "MyOffersTests" */;
 			buildPhases = (
+				B85B2AB598A4E8FAED3689A6 /* [CP] Check Pods Manifest.lock */,
 				333EDB2220CE9E2F004EC587 /* Sources */,
 				333EDB2320CE9E2F004EC587 /* Frameworks */,
 				333EDB2420CE9E2F004EC587 /* Resources */,
+				71DA7FBAEE0C30E4AB475484 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +300,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 333EDB4020CE9E2F004EC587 /* Build configuration list for PBXNativeTarget "MyOffersUITests" */;
 			buildPhases = (
+				9D2117443F7830FD3CFA1A7B /* [CP] Check Pods Manifest.lock */,
 				333EDB2D20CE9E2F004EC587 /* Sources */,
 				333EDB2E20CE9E2F004EC587 /* Frameworks */,
 				333EDB2F20CE9E2F004EC587 /* Resources */,
+				CFE5AAD433F1FAF87453E59E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,7 +364,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				333EDB1E20CE9E2F004EC587 /* LaunchScreen.storyboard in Resources */,
+				333EDB5A20D1AA50004EC587 /* Festive-offers.png in Resources */,
 				333EDB1B20CE9E2F004EC587 /* Assets.xcassets in Resources */,
+				333EDB5E20D1AAD3004EC587 /* offers_3433.jpg in Resources */,
+				333EDB5C20D1AA62004EC587 /* oL5c2.png in Resources */,
 				333EDB1920CE9E2C004EC587 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +388,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AEE23A2A72A4F4758C5BEB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyOffers/Pods-MyOffers-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Parse/Parse.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Parse.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyOffers/Pods-MyOffers-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71DA7FBAEE0C30E4AB475484 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyOffersTests/Pods-MyOffersTests-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Parse/Parse.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Parse.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyOffersTests/Pods-MyOffersTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D2117443F7830FD3CFA1A7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyOffersUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA5588D3E2B229986165C1CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyOffers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B85B2AB598A4E8FAED3689A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyOffersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFE5AAD433F1FAF87453E59E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyOffersUITests/Pods-MyOffersUITests-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Parse/Parse.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Parse.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyOffersUITests/Pods-MyOffersUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		333EDB0A20CE9E2C004EC587 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				333EDB5120CFC0BF004EC587 /* ProfileVC.m in Sources */,
+				333EDB4E20CFC046004EC587 /* NewOfferVC.m in Sources */,
 				333EDB1620CE9E2C004EC587 /* ViewController.m in Sources */,
 				333EDB2120CE9E2F004EC587 /* main.m in Sources */,
+				333EDB4820CFB25C004EC587 /* OffersViewController.m in Sources */,
+				333EDB4B20CFB500004EC587 /* AlertView.m in Sources */,
+				333EDB5420CFEAAE004EC587 /* DetailOfferVC.m in Sources */,
 				333EDB1320CE9E2C004EC587 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,11 +684,13 @@
 		};
 		333EDB3B20CE9E2F004EC587 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD2DFA6995EB78B3FFFE182 /* Pods-MyOffers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JC8B5GFD46;
 				INFOPLIST_FILE = MyOffers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +703,13 @@
 		};
 		333EDB3C20CE9E2F004EC587 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F89A86AB379B3173B8DE82D /* Pods-MyOffers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JC8B5GFD46;
 				INFOPLIST_FILE = MyOffers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +722,7 @@
 		};
 		333EDB3E20CE9E2F004EC587 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F06193F0BB9FF2F2AD3AA380 /* Pods-MyOffersTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -484,6 +742,7 @@
 		};
 		333EDB3F20CE9E2F004EC587 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67EACB60C8448113AB16722F /* Pods-MyOffersTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -503,6 +762,7 @@
 		};
 		333EDB4120CE9E2F004EC587 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28B9800A25781BC5154F1E54 /* Pods-MyOffersUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JC8B5GFD46;
@@ -521,6 +781,7 @@
 		};
 		333EDB4220CE9E2F004EC587 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D97E86043A303C9156FF0A /* Pods-MyOffersUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JC8B5GFD46;
